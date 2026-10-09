@@ -1,0 +1,85 @@
+project:
+  name: hea-electrocatalysis-temporal-forecast
+  version: 0.1.0
+  primary_task: warm_start_composition_reaction_link_prediction
+
+inclusion:
+  minimum_metal_elements: 4
+  require_target_material_role: true
+  allow_material_classes:
+    - metallic_hea
+  separately_track:
+    - high_entropy_oxide
+    - high_entropy_sulfide
+    - high_entropy_phosphide
+    - high_entropy_hydroxide
+
+material_aliases:
+  - high entropy alloy
+  - high-entropy alloy
+  - multi-principal element alloy
+  - multi principal element alloy
+  - compositionally complex alloy
+
+collection:
+  from_publication_date: 2004-01-01
+  to_publication_date: 2025-12-31
+  search_queries:
+    - '"high entropy alloy" electrocatalyst'
+    - '"high-entropy alloy" electrocatalyst'
+    - '"high entropy alloy" "hydrogen evolution"'
+    - '"high entropy alloy" "oxygen evolution"'
+    - '"high entropy alloy" "oxygen reduction"'
+    - '"high entropy alloy" "carbon dioxide reduction"'
+    - '"multi-principal element alloy" electrocatalyst'
+    - '"compositionally complex alloy" electrocatalyst'
+  oql_queries:
+    - name: core_hea_electrocatalysis
+      expression: >-
+        works where year >= (2004) and year <= (2025)
+        and title/abstract has
+        (("high entropy alloy" or "high-entropy alloy"
+        or "multi-principal element alloy" or "multi principal element alloy"
+        or "compositionally complex alloy")
+        and (electrocatalyst or electrocatalysis or "hydrogen evolution"
+        or "oxygen evolution" or "oxygen reduction"
+        or "carbon dioxide reduction" or "co2 reduction"))
+
+reactions:
+  HER:
+    - hydrogen evolution reaction
+    - hydrogen evolution
+    - electrocatalytic hydrogen production
+    - water reduction
+  OER:
+    - oxygen evolution reaction
+    - oxygen evolution
+    - water oxidation
+  ORR:
+    - oxygen reduction reaction
+    - oxygen reduction
+  CO2RR:
+    - carbon dioxide reduction reaction
+    - carbon dioxide reduction
+    - co2 reduction reaction
+    - co2 electroreduction
+
+temporal_backtests:
+  - cutoff_year: 2018
+    horizon_start: 2019
+    horizon_end: 2021
+  - cutoff_year: 2020
+    horizon_start: 2021
+    horizon_end: 2023
+  - cutoff_year: 2022
+    horizon_start: 2023
+    horizon_end: 2025
+
+quality_gates:
+  minimum_valid_records: 800
+  minimum_unique_systems: 200
+  minimum_records_per_core_reaction: 50
+  minimum_positive_links_per_test_window: 30
+  target_reaction_f1: 0.95
+  target_hea_classification_f1: 0.90
+  target_element_set_exact_match_f1: 0.85

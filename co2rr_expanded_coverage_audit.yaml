@@ -1,0 +1,46 @@
+project:
+  name: hea-co2rr-expanded-query-coverage-audit
+  version: 1.0.0
+
+collection:
+  oql_queries:
+    - name: expanded_hea_co2rr_historical_2004_2025
+      expression: >-
+        works where year >= (2004) and year <= (2025)
+        and title/abstract has
+        (("high entropy alloy" or "high-entropy alloy"
+        or "multi-principal element alloy" or "multi principal element alloy"
+        or "compositionally complex alloy")
+        and ("carbon dioxide reduction" or "co2 reduction" or co2rr
+        or "co2 reduction reaction" or "co2 electroreduction"
+        or "carbon dioxide electroreduction"
+        or "electrochemical co2 reduction"))
+
+material_aliases:
+  - high entropy alloy
+  - high-entropy alloy
+  - multi-principal element alloy
+  - multi principal element alloy
+  - compositionally complex alloy
+
+inclusion:
+  minimum_metal_elements: 4
+  require_target_material_role: true
+  allow_material_classes:
+    - metallic_hea
+  separately_track:
+    - high_entropy_oxide
+    - high_entropy_sulfide
+    - high_entropy_phosphide
+    - high_entropy_hydroxide
+
+reactions:
+  CO2RR:
+    - carbon dioxide reduction reaction
+    - carbon dioxide reduction
+    - co2 reduction reaction
+    - co2 reduction
+    - co2rr
+    - co2 electroreduction
+    - carbon dioxide electroreduction
+    - electrochemical co2 reduction

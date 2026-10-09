@@ -1,0 +1,46 @@
+project:
+  name: hea-electrocatalysis-one-year-rolling-backtest
+  version: 0.1.0
+  primary_task: warm_start_composition_reaction_link_prediction
+
+inclusion:
+  minimum_metal_elements: 4
+  require_target_material_role: true
+  allow_material_classes:
+    - metallic_hea
+  separately_track:
+    - high_entropy_oxide
+    - high_entropy_sulfide
+    - high_entropy_phosphide
+    - high_entropy_hydroxide
+
+reactions:
+  HER:
+    - hydrogen evolution reaction
+    - hydrogen evolution
+  OER:
+    - oxygen evolution reaction
+    - oxygen evolution
+  ORR:
+    - oxygen reduction reaction
+    - oxygen reduction
+  CO2RR:
+    - carbon dioxide reduction reaction
+    - carbon dioxide reduction
+
+temporal_backtests:
+  - cutoff_year: 2020
+    horizon_start: 2021
+    horizon_end: 2021
+  - cutoff_year: 2021
+    horizon_start: 2022
+    horizon_end: 2022
+  - cutoff_year: 2022
+    horizon_start: 2023
+    horizon_end: 2023
+  - cutoff_year: 2023
+    horizon_start: 2024
+    horizon_end: 2024
+  - cutoff_year: 2024
+    horizon_start: 2025
+    horizon_end: 2025
