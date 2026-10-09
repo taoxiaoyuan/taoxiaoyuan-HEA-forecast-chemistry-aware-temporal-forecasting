@@ -1,0 +1,7 @@
+wos_record_id,doi,publication_date,system_id,reaction_id,material_class,reviewer_id,event_source
+WOS:000678596600001,10.1039/d1ta02621f,2021/7/1,Co-Cu-Fe-Mn-Ni,HER,metallic_hea,WOS-R1,independent_wos_audit
+WOS:000908865200001,10.1002/smll.202206742,2023/1/1,Co-Fe-Ni-Pt-Ru,OER,metallic_hea,WOS-R1,independent_wos_audit
+WOS:000908865200001,10.1002/smll.202206742,2023/1/1,Co-Fe-Ni-Pt-Ru,ORR,metallic_hea,WOS-R1,independent_wos_audit
+WOS:001089326700001,10.1039/d3ta04670b,2023/10/1,Co-Fe-Mo-Ni,HER,metallic_hea,WOS-R1,independent_wos_audit
+WOS:000945610600001,10.1039/d2dt03637a,2023/2/1,Co-Cu-Fe-Mn-Ni,ORR,metallic_hea,WOS-R1,independent_wos_audit
+WOS:001561984800001,10.1007/s11665-025-11933-9,2025/9/1,Co-Cr-Cu-Fe-Ni,HER,metallic_hea,WOS-R1,independent_wos_audit

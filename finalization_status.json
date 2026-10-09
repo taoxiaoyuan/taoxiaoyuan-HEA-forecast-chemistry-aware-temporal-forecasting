@@ -1,0 +1,15 @@
+{
+  "status": "completed_external_corpus_audit",
+  "outcome_review_rows": 18,
+  "scientifically_valid_outcome_rows": 14,
+  "confirmed_historical_prior_edge_rows": 13,
+  "confirmed_historical_prior_pairs": 6,
+  "wos_eligible_candidate_count": 274,
+  "wos_eligible_five_or_more_candidate_count": 242,
+  "independent_peer_reviewed_new_edge_pairs": 6,
+  "additional_new_edge_pairs_outside_frozen_universe": 1,
+  "top10_hits": 1,
+  "precision_at_10": 0.1,
+  "top10_enrichment": 4.566666666666666,
+  "top10_hypergeometric_p": 0.20162461767857667
+}

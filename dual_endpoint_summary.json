@@ -1,0 +1,22 @@
+{
+  "analysis_status": "completed_frozen_score_dual_endpoint_analysis",
+  "interpretation": "post_audit_secondary_endpoint_with_unchanged_scores",
+  "frozen_candidates": 280,
+  "future_research_activity_pairs": 11,
+  "genuinely_novel_pairs": 6,
+  "renewed_or_continued_pairs": 5,
+  "activity_top10_hits": 4,
+  "activity_top10_precision": 0.4,
+  "activity_top10_enrichment": 10.181818181818183,
+  "activity_top10_hypergeometric_p": 0.0002443164927362405,
+  "activity_top50_hits": 9,
+  "activity_top50_precision": 0.18,
+  "activity_top50_enrichment": 4.581818181818182,
+  "activity_top50_hypergeometric_p": 4.015547032209458e-06,
+  "novelty_top10_hits": 1,
+  "novelty_top10_enrichment": 4.566666666666666,
+  "novelty_top10_hypergeometric_p": 0.20162461767857667,
+  "novelty_top50_hits": 4,
+  "novelty_top50_enrichment": 3.6533333333333333,
+  "novelty_top50_hypergeometric_p": 0.011223316622428047
+}

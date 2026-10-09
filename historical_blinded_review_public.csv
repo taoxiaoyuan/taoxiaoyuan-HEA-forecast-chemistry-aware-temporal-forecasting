@@ -1,0 +1,15 @@
+prior_blind_id,wos_record_id,doi,publication_date,system_id,reaction_id,same_exact_element_set_yes_no_uncertain,same_target_reaction_yes_no_uncertain,target_catalyst_yes_no_uncertain,qualifying_prior_edge_yes_no_uncertain,reviewer_id,review_status,notes,qualifying_prior_edge_final
+WOSPRE-001,WOS:001561984800001,10.1007/s11665-025-11933-9,2025/9/1,Co-Cr-Cu-Fe-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,FeCoCrNiCu 元素集合与 Co-Cr-Cu-Fe-Ni 匹配；酸性水分解按 HER 目标计入；注意标题主材料含 Al 变体，需区分具体样品,True
+WOSPRE-002,WOS:000678596600001,10.1039/d1ta02621f,2021/7/1,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/HER 旧关系；整体水分解包含 HER，按相同目标反应计入,True
+WOSPRE-003,WOS:000985892500001,10.1002/adfm.202301153,2023/5/1,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/HER 旧关系；标题含 V 功能，但 composition_raw 为 CuCoNiFeMn；若 V 实际掺入合金需下游复核,True
+WOSPRE-004,WOS:001218599300001,10.1016/j.surfin.2024.104084,2024/3/1,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/HER 旧关系；双功能电解水包含 HER,True
+WOSPRE-005,WOS:001441001600001,10.1016/j.ijhydene.2025.02.310,2025/3/27,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/HER 旧关系；摘要明确氢能生产,True
+WOSPRE-006,WOS:001576380500001,10.1039/d5ta04595a,2025/9/1,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/HER 旧关系；composition_raw 为 Fe-Co-Ni-Cu-Mn，元素集合匹配；标题含 /Zn，若 Zn 参与实际合金需复核,True
+WOSPRE-007,WOS:001655537800001,10.1016/j.solidstatesciences.2025.108185,2025/12/1,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/HER 旧关系；碱性水分解包含 HER,True
+WOSPRE-008,WOS:000945610600001,10.1039/d2dt03637a,2023/2/1,Co-Cu-Fe-Mn-Ni,ORR,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/ORR 旧关系；-1000 为样品标记，元素集合匹配,True
+WOSPRE-009,WOS:001544770200001,10.1002/cssc.202500882,2025/8/1,Co-Cu-Fe-Mn-Ni,ORR,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/ORR 旧关系；明确 ORR/OER 双功能,True
+WOSPRE-010,WOS:001608458500001,10.1016/j.cej.2025.170070,2025/10/1,Co-Cu-Fe-Mn-Ni,ORR,yes,yes,yes,yes,WOS-R1,complete,Co-Cu-Fe-Mn-Ni/ORR 旧关系；明确氧还原,True
+WOSPRE-011,WOS:001089326700001,10.1039/d3ta04670b,2023/10/1,Co-Fe-Mo-Ni,HER,yes,yes,yes,yes,WOS-R1,complete,四元 pseudo-HEA，非五元严格 HEA；元素集合 Co-Fe-Mo-Ni 与 system_id 匹配，碱性水电解含 HER，按字段填 yes，但 HEA 资格需下游注意,True
+WOSPRE-012,WOS:000908865200001,10.1002/smll.202206742,2023/1/1,Co-Fe-Ni-Pt-Ru,OER,yes,yes,yes,yes,WOS-R1,complete,实际为 HEA@Pt 空间异质结构，PtRuFeCoNi HEA 为催化剂组分；OER 明确,True
+WOSPRE-013,WOS:001513029300001,10.1039/d5ta03352g,2025/6/1,Co-Fe-Ni-Pt-Ru,OER,yes,uncertain,yes,uncertain,WOS-R1,complete,FeCoNiRuPt 与 Co-Fe-Ni-Pt-Ru 元素集合匹配；但标题仅称双功能，未明确 OER，证据不足,False
+WOSPRE-014,WOS:000908865200001,10.1002/smll.202206742,2023/1/1,Co-Fe-Ni-Pt-Ru,ORR,yes,yes,yes,yes,WOS-R1,complete,与 WOSPRE-012 同 DOI；ORR 明确,True

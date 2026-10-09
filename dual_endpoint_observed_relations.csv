@@ -1,0 +1,12 @@
+blind_id,wos_record_id,doi,publication_date,system_id,reaction_id,rank,confirmed_prior_edge,qualifying_new_edge,outcome_class,reviewer_id
+WOS26-002,WOS:001690307000001,10.1016/j.ijhydene.2026.153932,2026/2/1,Co-Cu-Fe-Mn-Ni,HER,1.0,True,False,renewed_or_continued_attention,WOS-R1
+WOS26-005,WOS:001786179700001,10.1002/smll.74128,2026/6/1,Co-Fe-Ni-Pt-Ru,OER,3.0,True,False,renewed_or_continued_attention,WOS-R1
+WOS26-007,WOS:001669586300001,10.1021/acsnano.5c15820,2026/1/1,Co-Cu-Fe-Mn-Ni,ORR,6.0,True,False,renewed_or_continued_attention,WOS-R1
+WOS26-010,WOS:001773594200001,10.1002/adfm.76096,2026/5/1,Co-Fe-Ni-Pd-Pt,HER,10.0,False,True,genuinely_novel_relation,WOS-R1
+WOS26-011,WOS:001768481100001,10.1039/d6ta00893c,2026/5/1,Co-Fe-Ni-Pt-Rh,OER,21.0,False,True,genuinely_novel_relation,WOS-R1
+WOS26-012,WOS:001768458000001,10.1021/jacs.6c05904,2026/5/1,Co-Cu-Ni-Pt-Ru,ORR,24.0,False,True,genuinely_novel_relation,WOS-R1
+WOS26-014,WOS:001781176600001,10.1016/j.jallcom.2026.188728,2026/6/5,Co-Cr-Cu-Fe-Ni,HER,34.0,True,False,renewed_or_continued_attention,WOS-R1
+WOS26-015,WOS:001786179700001,10.1002/smll.74128,2026/6/1,Co-Fe-Ni-Pt-Ru,ORR,35.0,True,False,renewed_or_continued_attention,WOS-R1
+WOS26-017,WOS:001849194000012,10.12442/j.issn.1002-185x.20250496,2026/9/1,Co-Cr-Fe-Ni-Pt,OER,45.0,False,True,genuinely_novel_relation,WOS-R1
+WOS26-019,WOS:001873937700001,10.1039/d6cc03672d,2026/9/8,Co-Fe-Mn-Ni-Ru,ORR,130.0,False,True,genuinely_novel_relation,WOS-R1
+WOS26-020,WOS:001752573900001,10.1021/acsanm.6c00789,2026/4/1,Ir-Mo-Pd-Sn-Zn,OER,139.0,False,True,genuinely_novel_relation,WOS-R1

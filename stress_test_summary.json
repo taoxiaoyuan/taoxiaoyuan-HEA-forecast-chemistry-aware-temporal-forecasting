@@ -1,0 +1,19 @@
+{
+  "status": "pre_review_conservative_stress_test_complete",
+  "interpretation": "Lower bound only; machine-detected prior edges have not yet been human adjudicated.",
+  "automatic_cross_database_checks": {
+    "historical_wos_to_openalex_overlap": 0.9363817097415507,
+    "historical_event_identity_recall": 0.8141025641025641,
+    "historical_event_exact_year_agreement": 0.9133858267716536,
+    "outcome_window_wos_to_openalex_overlap": 0.9066666666666666
+  },
+  "machine_challenged_candidate_pairs": 6,
+  "machine_challenged_original_peer_reviewed_hits": 2,
+  "original_peer_reviewed_positives": 5,
+  "conservative_peer_reviewed_positives": 3,
+  "original_top10_hits": 2,
+  "original_top10_precision": 0.2,
+  "conservative_top10_hits": 0,
+  "conservative_top10_precision": 0.0,
+  "next_required_step": "Complete both blinded WoS review files, then run finalize_wos_independent_validation.py."
+}

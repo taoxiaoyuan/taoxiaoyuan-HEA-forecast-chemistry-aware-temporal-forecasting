@@ -1,0 +1,44 @@
+{
+  "entity_definition": "canonical element set; stoichiometric coefficients are not modeled",
+  "primary_endpoint": {
+    "minimum_elements": 4,
+    "scope": "peer_reviewed_articles_only",
+    "k": 10,
+    "candidate_count": 280,
+    "positives": 5,
+    "prevalence": 0.017857142857142856,
+    "hits_at_k": 2,
+    "precision_at_k": 0.2,
+    "precision_wilson_95_low": 0.05668215145437519,
+    "precision_wilson_95_high": 0.5098375284633583,
+    "enrichment_at_k": 11.200000000000001,
+    "hypergeometric_p": 0.010870167553446707,
+    "endpoint_role": "primary",
+    "bh_q_across_secondary_tests": NaN
+  },
+  "five_or_more_element_sensitivity": {
+    "minimum_elements": 5,
+    "scope": "peer_reviewed_articles_only",
+    "k": 10,
+    "candidate_count": 247,
+    "positives": 5,
+    "prevalence": 0.020242914979757085,
+    "hits_at_k": 2,
+    "precision_at_k": 0.2,
+    "precision_wilson_95_low": 0.05668215145437519,
+    "precision_wilson_95_high": 0.5098375284633583,
+    "enrichment_at_k": 9.88,
+    "hypergeometric_p": 0.013865257890955883,
+    "endpoint_role": "secondary_or_sensitivity",
+    "bh_q_across_secondary_tests": 0.02599735854554228
+  },
+  "multiplicity_policy": "The primary endpoint is interpreted without multiplicity adjustment. All other K, evidence-scope, and HEA-definition tests are exploratory; Benjamini-Hochberg q values are supplied for transparency.",
+  "unresolved_historical_record": {
+    "annotation_id": "A00096",
+    "system_id": "Co-Cr-Fe-Mn-Ni",
+    "reaction_id": "OER",
+    "year": 2020,
+    "status": "excluded from model-ready data because independent adjudication was incomplete",
+    "prospective_2026_effect": "none: the frozen 2026 candidate table and labels are unchanged"
+  }
+}

@@ -1,0 +1,19 @@
+blind_id,wos_record_id,doi,publication_date,system_id,reaction_id,metallic_hea_valid_yes_no_uncertain,target_catalyst_yes_no_uncertain,reaction_valid_yes_no_uncertain,corrected_system_id,corrected_reaction_id,reviewer_id,review_status,notes,outcome_scientifically_valid
+WOS26-002,WOS:001690307000001,10.1016/j.ijhydene.2026.153932,2026/2/1,Co-Cu-Fe-Mn-Ni,HER,yes,yes,yes,,,WOS-R1,complete,五元金属合金，整体水分解双功能，HER 属于目标反应之一；有效,True
+WOS26-003,WOS:001843539600001,10.1016/j.ijhydene.2026.156889,2026/8/28,Co-Cu-Fe-Mn-Ni,HER,yes,yes,no,,,WOS-R1,complete,实际为镁水解产氢，不是电催化 HER；反应不匹配，无效,False
+WOS26-004,WOS:001745464900001,10.1016/j.cej.2026.176109,2026/5/15,Co-Fe-Ni-Pt-Ru,Mg hydrolysis,yes,yes,uncertain,,Mg hydrolysis,WOS-R1,complete,摘要仅见 electrocatalytic water splitting，未明确 OER；证据不足，无效,False
+WOS26-005,WOS:001786179700001,10.1002/smll.74128,2026/6/1,Co-Fe-Ni-Pt-Ru,OER,yes,yes,yes,,,WOS-R1,complete,三功能电催化，OER 属于目标反应之一；有效,True
+WOS26-006,WOS:001861392700001,10.1016/j.fuel.2026.140900,2026/8/1,Co-Fe-Ni-Pt-Ru,waste-to-ammonia electrosynthesis ,yes,yes,no,,waste-to-ammonia electrosynthesis ,WOS-R1,complete,实际反应为废料电合成氨，不是 OER；反应不匹配，无效,False
+WOS26-007,WOS:001669586300001,10.1021/acsnano.5c15820,2026/1/1,Co-Cu-Fe-Mn-Ni,ORR,yes,yes,yes,,,WOS-R1,complete,ORR 明确测试；有效,True
+WOS26-008,WOS:001699242400001,10.1002/smll.72949,2026/2/1,Co-Cu-Fe-Mn-Ni,ORR,yes,yes,yes,,,WOS-R1,complete,ORR 明确测试；有效,True
+WOS26-009,WOS:001768795200001,10.1002/cssc.70742,2026/5/19,Co-Cu-Fe-Mn-Ni,ORR,yes,yes,yes,,,WOS-R1,complete,双功能氧电催化，ORR 明确；有效,True
+WOS26-010,WOS:001773594200001,10.1002/adfm.76096,2026/5/1,Co-Fe-Ni-Pd-Pt,HER,yes,yes,yes,,,WOS-R1,complete,HER 明确测试；有效,True
+WOS26-011,WOS:001768481100001,10.1039/d6ta00893c,2026/5/1,Co-Fe-Ni-Pt-Rh,OER,yes,yes,yes,,,WOS-R1,complete,OER 明确测试；有效,True
+WOS26-012,WOS:001768458000001,10.1021/jacs.6c05904,2026/5/1,Co-Cu-Ni-Pt-Ru,ORR,yes,yes,yes,,,WOS-R1,complete,ORR 明确测试；有效,True
+WOS26-013,WOS:001774971900001,10.3390/molecules31101603,2026/5/11,Co-Fe-Mo-Ni-W,HER,yes,yes,yes,Co-Fe-Mo-Ni-W,,WOS-R1,complete,原始提取为四元 Fe35Co25Ni30Mo10，非严格 HEA；摘要同时含五元 Fe35Co25Ni30Mo7W3，含 W 五元为 HEA，按纠正后有效,True
+WOS26-014,WOS:001781176600001,10.1016/j.jallcom.2026.188728,2026/6/5,Co-Cr-Cu-Fe-Ni,HER,yes,yes,yes,,,WOS-R1,complete,HER 明确测试；有效,True
+WOS26-015,WOS:001786179700001,10.1002/smll.74128,2026/6/1,Co-Fe-Ni-Pt-Ru,ORR,yes,yes,yes,,,WOS-R1,complete,与 WOS26-005 同 DOI、同题，属重复记录；按 trifunctional 判断 OER 有效,True
+WOS26-017,WOS:001849194000012,10.12442/j.issn.1002-185x.20250496,2026/9/1,Co-Cr-Fe-Ni-Pt,OER,yes,yes,yes,,,WOS-R1,complete,完整水分解，OER 明确属于目标反应；有效,True
+WOS26-018,WOS:001670811300001,10.1021/jacs.5c16652,2026/1/1,Co-Fe-Mn-Ni-Ru,HER,yes,yes,no,,HER,WOS-R1,complete,表中反应写 ORR，但实际为 HER；反应不匹配，无效,False
+WOS26-019,WOS:001873937700001,10.1039/d6cc03672d,2026/9/8,Co-Fe-Mn-Ni-Ru,ORR,yes,yes,yes,,,WOS-R1,complete,ORR 明确测试；composition_raw 左括号不影响元素集合；有效,True
+WOS26-020,WOS:001752573900001,10.1021/acsanm.6c00789,2026/4/1,Ir-Mo-Pd-Sn-Zn,OER,yes,yes,yes,,,WOS-R1,complete,OER 明确测试；有效,True

@@ -1,0 +1,5 @@
+{
+  "candidate_rows": 280,
+  "descriptor_scope": "equiatomic composition-only and versioned screening groups",
+  "warning": "The screen is not DFT, CALPHAD, a phase-stability calculation, a live market-price estimate, or evidence of catalytic performance."
+}
