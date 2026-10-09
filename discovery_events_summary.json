@@ -1,0 +1,9 @@
+{
+  "annotation_rows": 280,
+  "accepted_rows": 244,
+  "rejected_rows": 35,
+  "needs_adjudication_rows": 1,
+  "pending_rows": 0,
+  "unique_discovery_events": 156,
+  "output": "G:\\AI+HEA\\data\\processed\\openalex_oql_discovery_events.csv"
+}
