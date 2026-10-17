@@ -1,0 +1,4 @@
+study,prediction_unit,text_representation,graph_model,temporal_design,external_future_validation,independent_novelty_audit,materials_level_hypothesis
+Tshitoyan et al. 2019,material-application association,unsupervised Word2Vec,No,historical cutoff,later literature associations,No,Partial
+Marwitz et al. 2026,concept-concept link,LLM concepts and MatSciBERT,concept graph and GraphSAGE,temporal held-out links,future concept edges,No dual historical-novelty endpoint,No
+This work,HEA element-set-reaction relation,TF-IDF text LR and task-matched LSA embedding,dated heterogeneous topology features,rolling yearly cutoffs and frozen ranking,independent WoS audit,Yes; pre-cutoff WoS history,Yes; explicit element set and reaction

@@ -1,0 +1,22 @@
+HEA electrocatalysis temporal forecasting
+
+This project contains original modifications and domain-specific analyses built
+on ideas and publicly released resources from the materials_concepts project by
+Marwitz et al. The upstream software is licensed under GPL-3.0-or-later. See:
+
+https://github.com/aimat-lab/materials_concepts
+https://doi.org/10.5281/zenodo.18466587
+https://doi.org/10.1038/s42256-026-01206-y
+
+All project software in src/, tests/, and tools/ is distributed under
+GPL-3.0-or-later unless a file states otherwise. Derived factual annotations
+and numerical result tables are intended for release under CC BY 4.0. Publisher
+PDFs, abstract-derived text, and licensed database exports are not redistributed
+and retain their original rights.
+
+Substantial modifications include HEA element-set normalization, reaction
+ontology, leakage-controlled rolling temporal splits, chemistry descriptors,
+positive-unlabelled and survival baselines, frozen out-of-time validation,
+independent-index auditing, human-label reliability analysis, and a time-stamped
+forward prediction portfolio.
+

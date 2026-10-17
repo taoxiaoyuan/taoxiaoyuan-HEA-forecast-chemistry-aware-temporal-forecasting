@@ -1,29 +1,29 @@
 # HEA electrocatalysis temporal forecasting
 
-This repository contains the analysis code, public derived data, and numerical
+This repository contains the executable code, public derived data, and numerical
 results for chemistry-aware temporal forecasting of high-entropy-alloy (HEA)
 electrocatalysis research directions.
 
-## Contents
+## Repository contents
 
-- `src/hea_forecast/`: extraction, normalization, chemistry descriptors,
-  temporal modelling, evaluation, and audit modules.
-- `configs/`: versioned analysis and query configurations.
+- `src/hea_forecast/`: data collection, extraction, normalization, chemistry
+  descriptors, temporal modelling, evaluation, and robustness analysis.
+- `configs/`: versioned query and evaluation settings.
 - `tests/`: automated unit and temporal-leakage tests.
-- `tools/`: scientific analysis, robustness, cross-database audit, and plotting
-  scripts.
-- `data/`: public derived event tables, candidate rankings, performance
-  conditions, and de-identified reviewer labels.
-- `results/`: temporal metrics, validation statistics, robustness analyses,
-  chemistry screening, method comparisons, independent-index audit summaries,
-  and generated figures.
-- `docs/`: technical protocols, data dictionary, provenance, and
-  reproducibility notes.
+- `tools/`: analysis, cross-index audit, reliability, forward-portfolio, and
+  plotting utilities.
+- `data/`: public derived event tables, frozen candidate rankings, performance
+  conditions, and de-identified human labels.
+- `results/`: temporal metrics, validation statistics, method comparisons,
+  chemistry screens, reliability checks, independent-index audit summaries,
+  forward predictions, and figures.
+- `docs/`: technical protocols, data dictionary, and provenance notes.
 
-The repository is limited to executable analysis, derived data, numerical
-outputs, technical provenance, and reproducibility metadata.
+No article drafts, tracked revisions, response letters, submission files,
+publisher PDFs, full-text articles, licensed database exports, API credentials,
+or local working files are included.
 
-## Installation and tests
+## Installation
 
 ```powershell
 python -m venv .venv
@@ -32,28 +32,41 @@ $env:PYTHONPATH = (Join-Path (Get-Location) "src")
 .\.venv\Scripts\python.exe -m pytest -q
 ```
 
-## Data boundary
+## Main reproducible outputs
 
-Only derived, publication-oriented factual tables and numeric summaries are
-included. The release excludes API credentials, raw Web of Science exports,
-publisher PDFs, full-text articles, reconstructed abstracts, private review
-keys, local caches, and virtual environments. Licensed source records must be
-obtained separately from the relevant provider.
+- Rolling temporal evaluation: `results/temporal/`
+- Frozen 2026 validation: `results/validation/`
+- Reliability and permutation checks: `results/reliability/`
+- Model comparisons: `results/method_comparison/`
+- Independent-index audit: `results/wos_audit/`
+- Chemistry screen: `results/chemistry/`
+- Time-stamped 2027–2028 forward portfolio: `results/forward/`
 
-The two public ranking tables omit the abstract-derived `text_document` field.
-The independent-index folder contains only public adjudication summaries and
-aggregate metrics, not the licensed database export.
+To rebuild the forward-portfolio selection and its figure from the public audit
+table:
 
-## Reproducibility
+```powershell
+.\.venv\Scripts\python.exe tools\build_forward_portfolio.py
+```
 
-The repository includes a SHA-256 manifest for file-level verification. The
-automated test suite contained 36 passing tests when this release was assembled
-on 2026-10-09.
+The released forward portfolio contains testable research hypotheses rather than
+validated catalytic claims. Absence from the documented literature screens is
+not proof of global novelty, synthesizability, phase stability, or catalytic
+activity.
 
-## Licensing
+## Public-data boundary
 
-Software is distributed under GPL-3.0-or-later. Derived factual annotations and
-numeric results are intended for CC BY 4.0 where no third-party license applies.
-See `LICENSE`, `NOTICE`, and `DATA_LICENSE.md`.
+The public tables retain structured factual annotations, identifiers, derived
+features, scores, and aggregate statistics. Abstract-derived text, evidence
+sentences, local PDF filenames, private adjudication keys, and raw licensed
+records have been removed. Source records must be obtained separately from the
+relevant provider under its terms.
 
-Upstream provenance is documented in `docs/upstream_provenance.md`.
+## Integrity and licensing
+
+`MANIFEST_SHA256.csv` provides a SHA-256 checksum for every released file other
+than the manifest itself. Software is distributed under GPL-3.0-or-later.
+Releaseable derived factual data and numerical results are intended for CC BY
+4.0 where no third-party licence applies. See `LICENSE`, `NOTICE`, and
+`DATA_LICENSE.md`.
+

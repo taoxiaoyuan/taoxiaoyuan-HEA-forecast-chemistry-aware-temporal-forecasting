@@ -1,0 +1,15 @@
+{
+  "review_rows": 26,
+  "complete_rows": 26,
+  "human_accepted_records": 15,
+  "human_rejected_or_uncertain_records": 11,
+  "machine_human_agreement": {
+    "sample_rows": 26,
+    "human_accepted": 15,
+    "machine_strict_accepted": 12,
+    "binary_raw_agreement": 0.6538461538461539,
+    "binary_cohen_kappa": 0.3157894736842105,
+    "interpretation": "machine-human agreement, not human-human inter-rater reliability"
+  },
+  "warning": "Cohen's kappa here compares machine triage with one human reviewer; a second independent human label set is required for inter-rater reliability."
+}

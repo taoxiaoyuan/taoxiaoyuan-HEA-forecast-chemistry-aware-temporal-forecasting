@@ -1,0 +1,22 @@
+{
+  "release_version": "2026-10-17",
+  "package_type": "github_code_data_results",
+  "scope": [
+    "code",
+    "public_derived_data",
+    "numeric_results",
+    "result_figures",
+    "technical_documentation"
+  ],
+  "forward_portfolio_freeze_date": "2026-10-16",
+  "forward_monitoring_horizon": "2027-01-01 to 2028-12-31",
+  "tests_passed": 36,
+  "forward_portfolio_reproduced": true,
+  "public_release_scan_passed": true,
+  "raw_abstracts_included": false,
+  "publisher_pdfs_included": false,
+  "licensed_wos_exports_included": false,
+  "private_review_keys_included": false,
+  "api_credentials_included": false,
+  "article_drafts_or_revision_material_included": false
+}

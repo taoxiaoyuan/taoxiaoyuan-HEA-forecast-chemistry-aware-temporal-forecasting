@@ -1,0 +1,4 @@
+label_rule,accepted_records,accepted_unique_relations,accepted_relations_in_frozen_universe,accepted_relations_outside_frozen_universe
+conservative_intersection,15,14,6,8
+locked_reviewer1,15,14,6,8
+inclusive_union,21,19,8,11

@@ -1,0 +1,54 @@
+{
+  "freeze_date": "2026-10-16",
+  "monitoring_horizon": "2027-01-01 to 2028-12-31",
+  "status": "Forward hypotheses generated after retrospective validation; not evidence of current predictive performance.",
+  "frozen_candidate_universe": 280,
+  "eligible_forward_pool": 117,
+  "portfolio_size": 12,
+  "portfolio_reaction_counts": {
+    "HER": 4,
+    "OER": 4,
+    "ORR": 4
+  },
+  "selection_rule": "Top four actionability scores per HER/OER/ORR after conservative evidence and scope screens, with one reaction retained per element set to maximize portfolio diversity.",
+  "actionability_weights": {
+    "frozen_forecast": 0.45,
+    "composition_novelty": 0.20,
+    "synthesis_feasibility_proxy": 0.20,
+    "affordability_proxy": 0.15
+  },
+  "conservative_exclusions": [
+    "any accepted 2026 outcome",
+    "any exact pair retrieved by the documented Web of Science historical or 2026 audits",
+    "any exact pair retrieved in the OpenAlex refresh on 2026-10-16",
+    "CO2RR because the historical event table is too sparse for forward-portfolio interpretation",
+    "fewer than five extracted elements",
+    "element sets containing B, C, N, O, P, or S tokens"
+  ],
+  "openalex_refresh": {
+    "retrieved_at": "2026-10-16T07:42:27+00:00",
+    "unique_works": 276
+  },
+  "flow": [
+    {"stage": "Frozen candidate universe", "count": 280},
+    {"stage": "No exact retrieved historical/2026 conflict", "count": 253},
+    {"stage": "Five-or-more metallic elements; HER/OER/ORR", "count": 117},
+    {"stage": "Reaction-balanced forward portfolio", "count": 12}
+  ],
+  "portfolio_keys": [
+    "Co-Fe-Ga-Ni-Zn|HER",
+    "Al-Co-Fe-Mo-Ni|HER",
+    "Co-Fe-Mo-Ni-Zn|HER",
+    "Co-Cu-Ni-Pd-Pt|HER",
+    "Co-Fe-Mn-Ni-V|OER",
+    "Co-Cu-Ni-Pt-Ru|OER",
+    "Co-Cu-Fe-Mn-Ni-Zn|OER",
+    "Co-Cu-Mg-Ni-Zn|OER",
+    "Co-Cr-Fe-Mo-Ni|ORR",
+    "Co-Cr-Fe-Ni-Ti|ORR",
+    "Co-Cu-Fe-Ir-Ni|ORR",
+    "Co-Cu-Fe-Ni-Ti|ORR"
+  ],
+  "redistribution_boundary": "Only derived structured data are included. Raw licensed records, abstract-derived evidence text, and private adjudication keys are excluded.",
+  "interpretation_boundary": "No retrieved exact relation is not proof of global scientific novelty, phase stability, catalytic activity, or synthesizability."
+}

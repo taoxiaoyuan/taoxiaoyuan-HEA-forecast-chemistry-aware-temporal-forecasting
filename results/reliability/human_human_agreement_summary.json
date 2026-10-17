@@ -1,0 +1,31 @@
+{
+  "reviewers": 2,
+  "records": 26,
+  "alignment_key": "annotation_id",
+  "reviewer1_source": "results/review_2026/second_reviewer_completed.csv",
+  "reviewer2_source": "results/reliability_upgrade_2026/second_independent_reviewer_completed.csv",
+  "final_binary_acceptance": {
+    "reviewer1_accepted": 15,
+    "reviewer2_accepted": 21,
+    "raw_agreement": 0.7692307692307693,
+    "cohen_kappa": 0.4901960784313726,
+    "disagreements": 6,
+    "confusion_matrix_labels": [
+      "accept",
+      "not_accept"
+    ],
+    "confusion_matrix": [
+      [
+        15,
+        0
+      ],
+      [
+        6,
+        5
+      ]
+    ]
+  },
+  "any_field_disagreement_records": 7,
+  "adjudication_required": true,
+  "note": "Agreement is calculated before adjudication. Original reviewer labels are preserved."
+}

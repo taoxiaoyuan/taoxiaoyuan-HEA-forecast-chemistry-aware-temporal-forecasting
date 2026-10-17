@@ -1,0 +1,8 @@
+{
+  "sample_rows": 26,
+  "human_accepted": 15,
+  "machine_strict_accepted": 12,
+  "binary_raw_agreement": 0.6538461538461539,
+  "binary_cohen_kappa": 0.3157894736842105,
+  "interpretation": "machine-human agreement, not human-human inter-rater reliability"
+}

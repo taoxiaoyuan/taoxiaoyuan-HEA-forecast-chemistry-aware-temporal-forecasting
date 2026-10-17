@@ -20,9 +20,17 @@ qa/
 tmp/
 work/
 
-# Licensed or private source material must stay local.
+# Licensed, private, or manuscript-related material must stay local.
 data/raw/
 data/interim/
 data/private/
+manuscript/
+submission/
+fulltext/
 **/*key_private*
 **/*publisher_pdf*
+**/*.docx
+**/*.doc
+**/*.tif
+**/*.tiff
+
